@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"allowJs": false,
+		"skipLibCheck": false,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			]
+		}
+	},
+	"include": [
+		"./src",
+		"src/react-app-env.d.ts",
+		"config/webpack.analy.js",
+		"config/webpack.common.js",
+		"config/webpack.dev.ts",
+		"config/webpack.prod.ts"
+	]
+}
